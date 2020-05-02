@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Grid</string>
+    <string name="name1">DEMO</string>
+    <string name="op1">Essential Provider</string>
+    <string name="op2">Personal Pass</string>
+    <string name="op3">Emergency Pass</string>
+    <string name="op6">Symptoms Report</string>
+    <string name="op4">Become a Volunteer</string>
+    <string name="op5">Ask Help</string>
+    <string name="dop1">Get/Request Pass for Providing essential service</string>
+    <string name="dop2">Get/Request Pass for buying essentials</string>
+    <string name="dop3">Get/Request Pass for Emergency travels</string>
+    <string name="dop4">Register for Volunteering The Needs</string>
+    <string name="dop5">Get help from a nearby Volunteer </string>
+    <string name="dop6">Report your symptoms and stay safe</string>
+    <string name="act">This activity has to be completed!</string>
+    <string name="log1">Welcome To \nTN Crisis Rescue</string>
+    <string name="log2">Generate OTP</string>
+    <string name="auth1">An OTP has been sent to the mobile number.</string>
+    <string name="auth2">Verify</string>
+    <string name="epassreg">Registration</string>
+</resources>

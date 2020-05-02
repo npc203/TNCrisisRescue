@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">250048590056-m0j36stshogu0j3ad6ur0im1l6j9rdb9.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://tn-crisis-rescue.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">250048590056</string>
+    <string name="google_api_key" translatable="false">AIzaSyA8CGo9rXqJExJamwWXRyZhDDxcRtnHqg4</string>
+    <string name="google_app_id" translatable="false">1:250048590056:android:3d3f324ed36b10f8f7595d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA8CGo9rXqJExJamwWXRyZhDDxcRtnHqg4</string>
+    <string name="google_storage_bucket" translatable="false">tn-crisis-rescue.appspot.com</string>
+    <string name="project_id" translatable="false">tn-crisis-rescue</string>
+</resources>

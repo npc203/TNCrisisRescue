@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EssentialPassReg"
+    android:background="@drawable/formbg"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:text="@string/epassreg"
+            android:padding="15dp"
+            android:textColor="#1F1F20"
+            android:textSize="30sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Name"
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:background="@drawable/input_box"
+            android:layout_marginRight="20dp"
+            android:id="@+id/RegName"
+            />
+
+        <EditText
+            android:id="@+id/RegAadhaar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Aadhaar Number"
+            android:paddingLeft="10dp"
+            android:background="@drawable/input_box"
+            android:inputType="number"
+            android:textSize="25sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:paddingLeft="10dp"
+            android:background="@drawable/input_box"
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/RegPhone"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:hint="Licence Number"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:background="@drawable/input_box"
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/RegLicence"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:hint="Registration Number"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:background="@drawable/input_box"
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/RegVehicleNo"
+            />
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:text="Select a date"
+            android:textSize="25sp"
+            android:layout_marginTop="25dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/input_box"
+            android:id="@+id/RegDate"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:hint="Origin(Location)"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:background="@drawable/input_box"
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/RegFrom"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:hint="Destination(Location)"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:background="@drawable/input_box"
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/RegTo"
+            />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:text="Include return trip also"
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#282829"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/custom_button"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>
