@@ -1,7 +1,7 @@
-#Sat May 02 12:51:01 IST 2020
-base.0=C\:\\Users\\Jeba\\AndroidStudioProjects\\TNCrisisRescue\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+#Sat May 02 20:03:19 IST 2020
+base.0=D\:\\for corona\\TNCrisisRescue\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\Jeba\\AndroidStudioProjects\\TNCrisisRescue\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+base.1=D\:\\for corona\\TNCrisisRescue\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
